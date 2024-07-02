@@ -1,0 +1,11 @@
+# CloudFormationTemplateVersion
+# Description
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: A simple CloudFormation template with at least one resource.
+
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'guillory-s3-bucket-yaml'
